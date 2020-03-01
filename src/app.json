@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/main",
+    "pages/list/main",
+    "pages/detail/main",
+    "pages/movies/main",
+    "pages/moviesDetail/main"
+    
+    
+    
+  ],
+  "window":{
+    "navigationBarBackgroundColor":"#489B81"
+  },
+  "tabBar":{
+    "position":"bottom",
+    "list":[
+      {
+        "pagePath":"pages/list/main",
+        "text":"英雄朋友圈",
+        "iconPath":"/static/images/tab/yuedu.png",
+        "selectedIconPath":"/static/images/tab/yuedu_h1.png"
+      },
+      {
+        "pagePath":"pages/movies/main",
+        "text":"电影频道",
+        "iconPath":"/static/images/tab/dianying.png",
+        "selectedIconPath":"/static/images/tab/dianying_h1.png"
+      }
+
+    ]
+  }
+}
